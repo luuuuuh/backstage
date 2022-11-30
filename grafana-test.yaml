@@ -5,6 +5,17 @@ metadata:
   description: Grafana
   annotations:
     grafana/tag-selector: backstage
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest
+---  
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: Dynatrace
+  description: Dynatrace
+  annotations:
     dynatrace.com/dynatrace-entity-id: HOST-418C17D3425E8D2D
 spec:
   type: website
