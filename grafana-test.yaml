@@ -5,6 +5,7 @@ metadata:
   description: Grafana
   annotations:
     grafana/tag-selector: backstage
+    dynatrace.com/dynatrace-entity-id: HOST-418C17D3425E8D2D
 spec:
   type: website
   lifecycle: production
