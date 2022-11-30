@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Grafana
+  description: Grafana
+  annotations:
+    grafana/tag-selector: backstage
+spec:
+  type: website
+  lifecycle: production
