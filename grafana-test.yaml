@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: Grafana
   description: Grafana
@@ -11,7 +11,7 @@ spec:
   owner: user:guest
 ---  
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: Dynatrace
   description: Dynatrace
