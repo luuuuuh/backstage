@@ -16,7 +16,7 @@ metadata:
   name: Dynatrace
   description: Dynatrace
   annotations:
-    dynatrace.com/dynatrace-entity-id: SERVICE-087928483C57C01F
+    dynatrace.com/dynatrace-entity-id: 'SERVICE-087928483C57C01F'
 spec:
   type: website
   lifecycle: production
